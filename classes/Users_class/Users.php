@@ -35,7 +35,7 @@ class User {
 }
 
 //Premium users
-class Premium extends User{
+class Premium extends User {
 
     private $extra_sale = 2.5;
     protected $subscription_year;
@@ -66,7 +66,7 @@ class Premium extends User{
 }
 
 //Employees users
-class Employees extends User {
+class Employee extends User {
 
     private $extra_sale = 10;
     protected $level;

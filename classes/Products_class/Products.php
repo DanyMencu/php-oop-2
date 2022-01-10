@@ -3,7 +3,7 @@
  * Products parent class
  */
 
-class User
+class Product
 {
     //Property
     protected $name;
