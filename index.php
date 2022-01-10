@@ -1,3 +1,11 @@
+<!-- 
+    Import different type class
+ -->
+<?php 
+    require_once __DIR__ . '/classes/Products_class/Products.php';
+    require_once __DIR__ . '/classes/Users_class/Users.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
